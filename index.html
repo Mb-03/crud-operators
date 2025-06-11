@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <!-- <form class="same-form" id="get-form"> -->
+      <h2>Get Request</h2>
+      <button id="get-btn" type="submit">Get</button>
+      <!-- </form> -->
+    </section>
+
+    <section>
+      <form id="post-form">
+        <h2>Post Request</h2>
+        <input type="text" placeholder="Photo Url" id="photo-url" required />
+        <input
+          type="text"
+          placeholder="Enter img title"
+          id="post-title"
+          required
+        />
+
+        <button type="submit">Post</button>
+      </form>
+    </section>
+
+    <section>
+        <form id="delete-form">
+        <h2>Post Request</h2>
+        <input type="text" placeholder="Id" id="product-id" required />
+        
+
+        <button type="submit" id="delete-button">Delete</button>
+      </form>
+    </section>
+
+    <section id="cards-section" class="cards-section"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
